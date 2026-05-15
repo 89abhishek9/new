@@ -1,0 +1,8 @@
+{
+  "name": "ProstaVive Official",
+  "description": "High-performance prostate health supplement landing page featuring healthy prostate size and strong urine flow solutions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

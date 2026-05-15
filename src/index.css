@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&family=Playfair+Display:wght@700;800&display=swap');
+
+@theme {
+  --font-sans: "Ubuntu", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", serif;
+  
+  --color-brand-navy: #2A3A5A;
+}
+
+:root {
+  --brand-primary: #2A3A5A;
+  --brand-secondary: #000000;
+  --brand-accent: #facc15;
+}
+
+body {
+  @apply font-sans text-slate-900 bg-white;
+  font-size: 15.2px;
+}
+
+h1, h2, h3 {
+  @apply font-serif;
+}
