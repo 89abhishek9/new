@@ -66,7 +66,10 @@ export default function App() {
     <div className="min-h-screen bg-white font-sans text-brand-navy overflow-x-hidden">
       {/* Header */}
       <header className="bg-brand-navy text-white py-4 px-6 fixed w-full z-[100] flex justify-between items-center backdrop-blur-md bg-opacity-90 border-b border-white/5">
-        <a href={AFFILIATE_LINK} target="_blank" rel="noopener noreferrer" className="text-2xl font-black italic tracking-tighter text-blue-400 uppercase hover:opacity-80 transition-opacity">ProstaVive</a>
+        <a href={AFFILIATE_LINK} target="_blank" rel="noopener noreferrer" className="text-2xl font-black italic tracking-tighter uppercase hover:opacity-80 transition-opacity">
+          <span className="text-blue-400">Prosta</span>
+          <span className="text-white">Vive</span>
+        </a>
         
         {/* Desktop Nav */}
         <nav className="hidden md:flex gap-8 text-sm font-bold uppercase tracking-widest items-center">
@@ -618,7 +621,10 @@ export default function App() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-20 mb-20 border-b border-white/5 pb-20">
              <div className="lg:col-span-1">
-               <div className="text-4xl font-black italic text-white mb-8 tracking-tighter uppercase">ProstaVive</div>
+               <div className="text-4xl font-black italic mb-8 tracking-tighter uppercase">
+                 <span className="text-blue-400">Prosta</span>
+                 <span className="text-white">Vive</span>
+               </div>
                <p className="text-sm leading-relaxed font-medium mb-10 italic">The breakthrough botanical solution for male vitality and prostate health restoration.</p>
                <div className="flex gap-4">
                  {[1,2,3].map(i => <div key={i} className="w-12 h-12 bg-white/5 rounded-2xl flex items-center justify-center hover:bg-brand-navy transition-colors cursor-pointer text-white"><Star size={20} /></div>)}
