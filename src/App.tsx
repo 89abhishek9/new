@@ -59,8 +59,8 @@ export default function App() {
   const [activeFaq, setActiveFaq] = useState<number | null>(null);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-  const productWithIngredientsImage = "/images/regenerated_image_1778832083979.png";
-  const bottleImage = "/images/regenerated_image_1778832083979.png";
+  const productWithIngredientsImage = "/images/prostavive-bottle-ingredients.png";
+  const bottleImage = "/images/prostavive-bottle-ingredients.png";
 
   return (
     <div className="min-h-screen bg-white font-sans text-brand-navy overflow-x-hidden">
@@ -349,7 +349,7 @@ export default function App() {
                    <Plus size={16} strokeWidth={4} /> Small Shipping Fee
                 </div>
                 <div className="flex gap-4 opacity-50">
-                  <img src="/images/regenerated_image_1778833255343.jpg" alt="Visa" className="h-6" />
+                  <img src="/images/visa-card.jpg" alt="Visa" className="h-6" />
                   <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" alt="Mastercard" className="h-6" />
                   <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" alt="PayPal" className="h-6" />
                 </div>
@@ -497,7 +497,7 @@ export default function App() {
           </div>
           <div className="relative mt-12 lg:mt-0">
              <div className="aspect-[4/5] bg-gradient-to-t from-black to-brand-navy rounded-[40px] lg:rounded-[60px] overflow-hidden relative shadow-3xl border border-white/10">
-                <img src="/images/regenerated_image_1778832581190.png" alt="Healthy active older man enjoying life outdoors with high energy" className="w-full h-full object-cover mix-blend-overlay opacity-60" />
+                <img src="/images/active-healthy-older-man.png" alt="Healthy active older man enjoying life outdoors with high energy" className="w-full h-full object-cover mix-blend-overlay opacity-60" />
                 <div className="absolute bottom-8 lg:bottom-12 left-8 lg:left-12 right-8 lg:right-12">
                    <div className="text-3xl lg:text-5xl font-serif font-black text-white italic tracking-tighter mb-4 leading-none">"I haven't felt this strong in 20 years."</div>
                    <div className="text-blue-400 font-bold uppercase tracking-widest text-sm">— Mark R., Age 61</div>
