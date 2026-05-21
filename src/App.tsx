@@ -73,6 +73,7 @@ export default function App() {
         
         {/* Desktop Nav */}
         <nav className="hidden md:flex gap-8 text-sm font-bold uppercase tracking-widest items-center">
+          <a href="#review" className="hover:text-blue-400 transition-colors" onClick={(e) => { e.preventDefault(); document.getElementById('review')?.scrollIntoView({ behavior: 'smooth' }); }}>Does It Work?</a>
           <a href={AFFILIATE_LINK} target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">Science</a>
           <a href={AFFILIATE_LINK} target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">Ingredients</a>
           <a href={AFFILIATE_LINK} target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">Reviews</a>
@@ -101,6 +102,7 @@ export default function App() {
               className="absolute top-full left-0 w-full bg-brand-navy border-b border-white/10 overflow-hidden md:hidden shadow-2xl"
             >
               <div className="flex flex-col p-6 gap-6 text-lg font-black uppercase tracking-widest text-center">
+                <a href="#review" onClick={(e) => { e.preventDefault(); setIsMobileMenuOpen(false); setTimeout(() => document.getElementById('review')?.scrollIntoView({ behavior: 'smooth' }), 100); }} className="py-4 border-b border-white/5 text-white">Does It Work?</a>
                 <a href={AFFILIATE_LINK} target="_blank" rel="noopener noreferrer" onClick={() => setIsMobileMenuOpen(false)} className="py-4 border-b border-white/5 text-white">Science</a>
                 <a href={AFFILIATE_LINK} target="_blank" rel="noopener noreferrer" onClick={() => setIsMobileMenuOpen(false)} className="py-4 border-b border-white/5 text-white">Ingredients</a>
                 <a href={AFFILIATE_LINK} target="_blank" rel="noopener noreferrer" onClick={() => setIsMobileMenuOpen(false)} className="py-4 border-b border-white/5 text-white">Reviews</a>
@@ -547,6 +549,236 @@ export default function App() {
         </div>
       </section>
 
+      {/* Honest 2026 Review Analysis Section */}
+      <section id="review" className="py-24 bg-white border-t border-slate-100">
+        <div className="max-w-4xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <span className="inline-flex items-center gap-1 bg-blue-50 text-blue-700 px-4 py-1.5 rounded-full text-xs font-black uppercase tracking-wider mb-4">
+              Honest 2026 Analysis
+            </span>
+            <h2 className="text-4xl lg:text-6xl font-serif font-black uppercase tracking-tighter italic text-brand-navy mb-4">
+              ProstaVive Review: <span className="text-blue-600">Does It Work?</span>
+            </h2>
+            <p className="text-xl text-slate-500 font-medium italic">
+              A comprehensive, ingredient-focused, and evidence-backed breakdown.
+            </p>
+          </div>
+
+          {/* Article Container with beautiful editorial, high-contrast & high-readability styling for 50+ age group */}
+          <div className="max-w-none text-slate-900 leading-relaxed text-lg md:text-[21px] space-y-10 font-medium">
+            <p className="text-xl md:text-2xl text-slate-800 italic border-l-4 border-blue-500 pl-6 py-3 bg-blue-50/55 rounded-r-3xl pr-6 leading-relaxed">
+              If you've been searching for an honest ProstaVive review, you're in the right place. With so many prostate supplements flooding the market in 2026, it's fair to ask: does ProstaVive actually work, or is it just another overhyped bottle of capsules? Let's break down exactly what ProstaVive is, what's inside it, what real users are saying, and whether it's worth your money.
+            </p>
+
+            <hr className="border-slate-100 my-8" />
+
+            <div className="space-y-6">
+              <h3 className="text-3xl md:text-4xl font-black text-brand-navy uppercase tracking-tight">What Is ProstaVive?</h3>
+              <p className="leading-relaxed">
+                ProstaVive is a natural prostate health supplement designed as a clean, daily support system for men seeking to maintain cellular prostate size, promote stronger urine flow, and reduce midnight waking.
+              </p>
+              <p className="leading-relaxed">
+                Unlike standard, hard-to-absorb capsules that are easily destroyed by harsh digestive acids, ProstaVive is manufactured using a specialized micronized delivery format designed to yield complete cellular bioavailability, directly addressing:
+              </p>
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 pl-0 list-none mt-6">
+                {[
+                  "Healthy prostate size & structure",
+                  "Stronger, continuous urine flow",
+                  "Fewer nighttime trips (better sleep)",
+                  "Enhanced male vitality & daily energy"
+                ].map((item, idx) => (
+                  <li key={idx} className="flex items-center gap-4 bg-slate-50 p-4 rounded-2xl border border-slate-100">
+                    <CheckCircle2 className="text-green-600 shrink-0" size={24} />
+                    <span className="font-extrabold text-base md:text-lg text-brand-navy">{item}</span>
+                  </li>
+                ))}
+              </ul>
+              <p className="mt-6 leading-relaxed">
+                It comes with an extraordinary <strong className="font-black text-brand-navy underline decoration-blue-500 underline-offset-4">180-day money-back guarantee</strong>, which is one of the longest coverage options in the wellness industry—a strong statement of confidence from the formulator.
+              </p>
+            </div>
+
+            <hr className="border-slate-100 my-8" />
+
+            <div className="space-y-6">
+              <h3 className="text-3xl md:text-4xl font-black text-brand-navy uppercase tracking-tight">ProstaVive Ingredients: What's Inside?</h3>
+              <p className="leading-relaxed">
+                The efficacy of any botanical formula relies purely on the purity and concentration of its active compounds. ProstaVive's synergistic recipe is built around several scientifically explored ingredients:
+              </p>
+
+              <div className="space-y-6 mt-8">
+                {[
+                  {
+                    name: "Saw Palmetto Extract",
+                    benefit: "Supports healthy testosterone metabolism",
+                    desc: "Arguably the most robustly researched natural compound for prostate health. Multiple clinical analyses suggest saw palmetto inhibits 5-alpha-reductase, supporting healthy urinary frequencies and defending against age-related enlargement (BPH)."
+                  },
+                  {
+                    name: "Beta-Sitosterol",
+                    benefit: "Improves urinary flow rates",
+                    desc: "A natural plant sterol repeatedly shown in clinical assessments to enhance bladder clearance, improve micro-circulation, and significantly decrease residual urine volume in men."
+                  },
+                  {
+                    name: "Zinc",
+                    benefit: "Foundational cellular immunity",
+                    desc: "The natural prostate gland maintains higher concentrations of zinc than any other tissue in the human body. Because structural zinc depletion is highly linked to swelling, daily supplementation is absolutely critical."
+                  },
+                  {
+                    name: "Pygeum Africanum Bark",
+                    benefit: "Reduces nighttime bladder urgency",
+                    desc: "Derived from the African cherry tree bark, pygeum is extensively integrated across European clinical frameworks to naturally soothe bladder spasms, decrease overnight wakefulness, and facilitate total bladder emptying."
+                  },
+                  {
+                    name: "Lycopene",
+                    benefit: "Powerful localized antioxidant",
+                    desc: "A powerful skin and interior cellular antioxidant found abundantly in red ripe tomatoes. It targets and neutralizes oxidative cellular stress specifically localized within key prostate tissues."
+                  },
+                  {
+                    name: "Vitamin D3",
+                    benefit: "Supports healthy cellular development",
+                    desc: "Clinical research shows that steady Vitamin D levels are tightly bound to long-term prostate health, metabolic vitality, and proper immune response within the glands."
+                  }
+                ].map((ing, idx) => (
+                  <div key={idx} className="bg-slate-50 p-6 md:p-8 rounded-3xl border border-slate-100 flex flex-col md:flex-row md:items-start gap-6">
+                    <div className="shrink-0 bg-blue-600 text-white w-12 h-12 rounded-2xl flex items-center justify-center font-black text-lg shadow-sm">
+                      {idx + 1}
+                    </div>
+                    <div>
+                      <div className="flex flex-wrap items-center gap-3 mb-3">
+                        <h4 className="text-xl md:text-2xl font-black text-brand-navy uppercase tracking-tight">{ing.name}</h4>
+                        <span className="text-xs md:text-sm font-bold text-blue-700 bg-blue-50/80 px-3 py-1 rounded-full">{ing.benefit}</span>
+                      </div>
+                      <p className="text-base md:text-[18px] text-slate-700 leading-relaxed font-semibold">{ing.desc}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <hr className="border-slate-100 my-8" />
+
+            <div className="space-y-6">
+              <h3 className="text-3xl md:text-4xl font-black text-brand-navy uppercase tracking-tight">Does ProstaVive Actually Work? What Users Are Saying</h3>
+              <p className="leading-relaxed">
+                User feedback across digital spaces remains highly promising. Because it employs organic botanical extracts rather than synthetic forced biochemical compounds, the benefits compile systematically and progressively.
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+                <div className="bg-[#f0fdf4] p-8 rounded-[32px] border border-green-200">
+                  <h4 className="font-extrabold text-green-900 uppercase tracking-wider text-sm md:text-base mb-4">Key Benefits Reported</h4>
+                  <ul className="space-y-3">
+                    {[
+                      "Decreased immediate urgency and better stream flow",
+                      "Substantial drop in middle-of-the-night waking schedules",
+                      "Noticeable relief in bladder pressure and discomfort",
+                      "Enhanced baseline daytime energy and endurance levels"
+                    ].map((bullet, idx) => (
+                      <li key={idx} className="flex gap-3 items-start text-sm md:text-base font-bold text-green-950">
+                        <CheckCircle2 size={18} className="text-green-700 shrink-0 mt-0.5" />
+                        <span>{bullet}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+                <div className="bg-[#fefce8] p-8 rounded-[32px] border border-yellow-200">
+                  <h4 className="font-extrabold text-yellow-900 uppercase tracking-wider text-sm md:text-base mb-4">Key Realistic Expectations</h4>
+                  <ul className="space-y-3">
+                    {[
+                      "Requires consistent, daily intake (missing days sets back relief)",
+                      "Results are cumulative; works gradually over weeks, not minutes",
+                      "Individual responses might differ based on current body state"
+                    ].map((bullet, idx) => (
+                      <li key={idx} className="flex gap-3 items-start text-sm md:text-base font-bold text-yellow-950">
+                        <CheckCircle2 size={18} className="text-yellow-700 shrink-0 mt-0.5" />
+                        <span>{bullet}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <hr className="border-slate-100 my-8" />
+
+            <div className="space-y-6">
+              <h3 className="text-3xl md:text-4xl font-black text-brand-navy uppercase tracking-tight">How Long Does ProstaVive Take to Work?</h3>
+              <p className="leading-relaxed">
+                Based on extensive consumer feedback and the bio-absorption cycle of its active compounds, a standard realistic progression timeline is outlined below:
+              </p>
+
+              <div className="overflow-hidden border border-slate-200 rounded-3xl mt-6 shadow-sm overflow-x-auto">
+                <table className="w-full text-left border-collapse bg-white min-w-[500px]">
+                  <thead>
+                    <tr className="bg-slate-50 border-b border-slate-200">
+                      <th className="px-6 py-4 text-sm md:text-base font-black uppercase tracking-wider text-brand-navy">Timeframe</th>
+                      <th className="px-6 py-4 text-sm md:text-base font-black uppercase tracking-wider text-brand-navy">What to Expect</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-slate-100">
+                    {[
+                      { period: "Week 1–2", text: "Nutrients begin compiling systematic balance in tissue. No drastic changes; initial localized assimilation." },
+                      { period: "Week 3–4", text: "Noticeable, gentle reduction in late-night urgency. Bladder control begins normalizing." },
+                      { period: "Month 2", text: "Significantly stronger, smoother flow. Consistently fewer bathroom interruptions at night." },
+                      { period: "Month 3+", text: "Full, consolidated botanical benefits. Gland comfort and natural male vitality optimized." }
+                    ].map((row, idx) => (
+                      <tr key={idx} className="hover:bg-slate-50/50">
+                        <td className="px-6 py-5 text-base md:text-lg font-black text-brand-navy whitespace-nowrap">{row.period}</td>
+                        <td className="px-6 py-5 text-base md:text-lg text-slate-700 font-semibold leading-relaxed">{row.text}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+              <p className="text-xs md:text-sm text-slate-500 italic mt-4 text-center">
+                *Consistency is paramount. The formulator highly suggests completing a thorough 90 to 180 day protocol.
+              </p>
+            </div>
+
+            <hr className="border-slate-100 my-8" />
+
+            <div className="space-y-6">
+              <h3 className="text-3xl md:text-4xl font-black text-brand-navy uppercase tracking-tight">Safety & Side Effects</h3>
+              <p className="leading-relaxed">
+                Crafted inside an FDA-registered and GMP-certified, state-of-the-art facility inside the United States, ProstaVive is formulated entirely around natural ingredients that possess high safety records. Severe side effects remain incredibly scarce.
+              </p>
+              <p className="leading-relaxed">
+                A small minority may experience minor tummy adjustments during the initial stage as the bioactive extracts are introduced, which generally self-corrects inside a matter of days.
+              </p>
+              <div className="bg-blue-50/50 p-8 rounded-3xl border border-blue-100 mt-6">
+                <span className="font-extrabold text-xs md:text-sm bg-blue-600 text-white px-3 py-1 rounded-full uppercase tracking-wider">Medical Guidance</span>
+                <p className="mt-4 text-base md:text-lg text-blue-900 font-semibold leading-relaxed">
+                  Men currently diagnosed with prostate issues, undergoing cellular treatments, or actively taking prescription medications should always consult their personal healthcare doctor before commencing any wellness supplement program.
+                </p>
+              </div>
+            </div>
+
+            <hr className="border-slate-100 my-8" />
+
+            <div className="bg-gradient-to-br from-brand-navy to-black p-8 md:p-12 lg:p-16 rounded-[40px] text-white space-y-6 text-center lg:text-left relative overflow-hidden border border-white/10 mt-12 bg-slate-950">
+              <div className="space-y-3">
+                <h3 className="text-3xl md:text-4xl lg:text-5xl font-serif font-black italic tracking-tight text-white uppercase">The Final Verdict: Is It Worth It?</h3>
+                <p className="text-blue-100/80 text-base md:text-lg lg:text-xl font-bold max-w-3xl leading-relaxed">
+                  With premium researched dosages, an pristine clean clinical manufacturing lineage, and a completely risk-free 180-day money-back policy, ProstaVive represents a leading, high-value natural formula for active men.
+                </p>
+              </div>
+              <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-8 pt-6 border-t border-white/10">
+                <div className="space-y-2">
+                  <div className="text-yellow-400 font-extrabold uppercase tracking-widest text-sm">OFFICIAL STORE PRICING</div>
+                  <div className="text-2xl md:text-3xl font-bold font-serif italic text-white leading-tight">Guaranteed Authentic & Verified Direct Stock</div>
+                </div>
+                <a href={AFFILIATE_LINK} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-yellow-400 text-black px-10 py-5 rounded-2xl text-[20px] font-black hover:bg-yellow-300 transition-all shadow-xl shadow-yellow-400/10 uppercase tracking-tighter shrink-0 text-center">
+                  Secure Your Supply Direct
+                  <ArrowRight size={22} />
+                </a>
+              </div>
+            </div>
+            
+            <p className="text-[10px] text-slate-400 text-center uppercase tracking-widest pt-8">
+              This review is compiled for informational study and is not composed as professional diagnostic advice.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Detailed FAQ Section for SEO */}
       <section className="py-24 bg-slate-50 border-y border-slate-100">
         <div className="max-w-4xl mx-auto px-6">
@@ -580,17 +812,17 @@ export default function App() {
               <div key={i} className="bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm">
                 <button 
                   onClick={() => setActiveFaq(activeFaq === i ? null : i)}
-                  className="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-slate-50 transition-colors"
+                  className="w-full px-8 py-6 md:py-8 text-left flex justify-between items-center hover:bg-slate-50 transition-colors gap-4"
                 >
-                  <span className="text-lg font-black text-brand-navy uppercase tracking-tight">{faq.q}</span>
-                  <Plus className={`text-blue-500 transition-transform ${activeFaq === i ? 'rotate-45' : ''}`} />
+                  <span className="text-xl md:text-2xl font-black text-brand-navy uppercase tracking-tight leading-snug">{faq.q}</span>
+                  <Plus className={`text-blue-500 transition-transform shrink-0 ${activeFaq === i ? 'rotate-45' : ''}`} size={24} />
                 </button>
                 <motion.div
                   initial={false}
                   animate={{ height: activeFaq === i ? 'auto' : 0, opacity: activeFaq === i ? 1 : 0 }}
                   className="overflow-hidden"
                 >
-                  <div className="px-8 pb-8 text-slate-600 leading-relaxed font-medium">
+                  <div className="px-8 pb-8 text-slate-800 text-lg md:text-[20px] leading-relaxed font-semibold">
                     {faq.a}
                   </div>
                 </motion.div>
@@ -601,17 +833,17 @@ export default function App() {
       </section>
 
       {/* Final CTA */}
-      <section className="py-20 bg-brand-navy text-white text-center">
+      <section className="py-24 bg-brand-navy text-white text-center">
         <div className="max-w-4xl mx-auto px-6">
-          <h2 className="text-4xl lg:text-6xl font-serif font-black mb-10 uppercase tracking-tighter italic">Ready to Reclaim Your <span className="text-blue-400">Vitality?</span></h2>
-          <p className="text-xl text-blue-100/70 mb-12 max-w-2xl mx-auto italic">Join thousands of men who have restored their confidence and sleep with ProstaVive.</p>
-          <a href={AFFILIATE_LINK} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-3 bg-yellow-400 text-black px-12 py-6 rounded-2xl text-2xl font-black hover:bg-yellow-300 transition-all shadow-2xl shadow-yellow-400/20 group uppercase tracking-tighter">
+          <h2 className="text-4xl lg:text-7xl font-serif font-black mb-10 uppercase tracking-tighter italic">Ready to Reclaim Your <span className="text-blue-400">Vitality?</span></h2>
+          <p className="text-xl md:text-2xl text-blue-100/85 mb-12 max-w-3xl mx-auto italic font-bold leading-relaxed">Join thousands of men who have restored their confidence and sleep with ProstaVive.</p>
+          <a href={AFFILIATE_LINK} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-3 bg-yellow-400 text-black px-12 py-6 rounded-2xl text-2xl md:text-3xl font-black hover:bg-yellow-300 transition-all shadow-2xl shadow-yellow-400/20 group uppercase tracking-tighter">
             Get ProstaVive Now
             <ArrowRight className="group-hover:translate-x-1 transition-transform" />
           </a>
           <div className="mt-8 flex items-center justify-center gap-8 opacity-60 grayscale brightness-200">
-             <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-widest"><ShieldCheck size={16} /> 180-Day Guarantee</div>
-             <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-widest"><Truck size={16} /> Fast US Shipping</div>
+             <div className="flex items-center gap-2 text-xs md:text-sm font-bold uppercase tracking-widest"><ShieldCheck size={18} /> 180-Day Guarantee</div>
+             <div className="flex items-center gap-2 text-xs md:text-sm font-bold uppercase tracking-widest"><Truck size={18} /> Fast US Shipping</div>
           </div>
         </div>
       </section>
@@ -634,6 +866,7 @@ export default function App() {
                <h5 className="text-white font-black uppercase text-xs tracking-widest mb-10">Product Links</h5>
                <ul className="space-y-6 font-bold text-sm">
                  <li><a href={AFFILIATE_LINK} target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">Home</a></li>
+                 <li><a href="#review" className="hover:text-blue-400 transition-colors" onClick={(e) => { e.preventDefault(); document.getElementById('review')?.scrollIntoView({ behavior: 'smooth' }); }}>Does It Work?</a></li>
                  <li><a href={AFFILIATE_LINK} target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">How It Works</a></li>
                  <li><a href={AFFILIATE_LINK} target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">Ingredients</a></li>
                  <li><a href={AFFILIATE_LINK} target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">Reviews</a></li>
