@@ -779,6 +779,102 @@ export default function App() {
         </div>
       </section>
 
+      {/* Localized SEO Target Section - Council Bluffs, IA */}
+      <section id="local-info" className="py-24 bg-blue-50/40 border-t border-slate-100">
+        <div className="max-w-4xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <span className="inline-flex items-center gap-2 bg-yellow-100 text-yellow-950 border border-yellow-200 px-4 py-1.5 rounded-full text-xs md:text-sm font-black uppercase tracking-wider mb-4">
+              📍 Local Shipping Guide &amp; Availability
+            </span>
+            <h2 className="text-4xl lg:text-6xl font-serif font-black uppercase tracking-tighter italic text-brand-navy mb-4 leading-none">
+              ProstaVive in <span className="text-blue-600">Council Bluffs, Iowa</span>
+            </h2>
+            <p className="text-xl md:text-2xl text-slate-500 font-medium italic">
+              Local store retail reports, shipping timelines, and direct home dispatch.
+            </p>
+          </div>
+
+          <div className="bg-white rounded-[40px] p-8 md:p-12 border border-slate-100 space-y-8 text-slate-900 leading-relaxed text-lg md:text-[21px] font-medium shadow-sm">
+            <p className="leading-relaxed text-slate-800">
+              For men over 50 residing in <strong>Council Bluffs, Iowa</strong> and neighboring Pottawattamie County, getting premium natural support should not involve endless trips to physical shops. Let's break down where you can obtain authentic ProstaVive stock with verified speed.
+            </p>
+
+            <div className="space-y-6">
+              <h3 className="text-2xl md:text-3xl font-black text-brand-navy uppercase tracking-tight">
+                Can You Buy ProstaVive in Local Council Bluffs retail stores?
+              </h3>
+              <p className="leading-relaxed text-slate-700">
+                As of <strong className="text-brand-navy font-extrabold">2026</strong>, authentic, clinically certified <strong>ProstaVive formula is not sold in local brick-and-mortar stores</strong> near Broadway, Metro Crossing, or Mall of the Bluffs. Major retailers like Walgreens, GNC, Walmart, or CVS do not carry the genuine proprietary formula. 
+              </p>
+              <p className="leading-relaxed text-slate-700">
+                This is a deliberate safety decision by the manufacturer to:
+              </p>
+              <ul className="space-y-4 pl-0 list-none mt-4">
+                <li className="flex gap-4 items-start bg-slate-50 p-5 rounded-2xl border border-slate-100">
+                  <span className="shrink-0 bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">1</span>
+                  <span><strong>Eliminate retail third-party markups</strong> to keep the individual bottle cost as low as $39.</span>
+                </li>
+                <li className="flex gap-4 items-start bg-slate-50 p-5 rounded-2xl border border-slate-100">
+                  <span className="shrink-0 bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">2</span>
+                  <span><strong>Prevent fraudulent counterfeits</strong> from leaking onto unauthorized third-party shelves.</span>
+                </li>
+                <li className="flex gap-4 items-start bg-slate-50 p-5 rounded-2xl border border-slate-100">
+                  <span className="shrink-0 bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">3</span>
+                  <span>Maintain the validity of the comprehensive <strong>180-day money-back guarantee</strong> through direct factory checkout records.</span>
+                </li>
+              </ul>
+            </div>
+
+            <hr className="border-slate-100 my-8" />
+
+            <div className="space-y-6">
+              <h3 className="text-2xl md:text-3xl font-black text-brand-navy uppercase tracking-tight">
+                Council Bluffs &amp; Western Iowa Delivery Timelines
+              </h3>
+              <p className="leading-relaxed text-slate-700">
+                When you initiate your order online from anywhere in the Council Bluffs, Iowa area, your shipment is routed via premium express courier networks (USPS, FedEx, or UPS direct):
+              </p>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+                <div className="bg-blue-50/50 p-6 rounded-3xl border border-blue-100">
+                  <h4 className="font-extrabold text-blue-900 uppercase tracking-wider text-sm mb-2">🚚 Local Delivery Time</h4>
+                  <p className="text-base md:text-lg font-bold text-slate-800 leading-normal">
+                    3 to 5 business days from dispatch directly to your front porch.
+                  </p>
+                </div>
+                <div className="bg-green-50/50 p-6 rounded-3xl border border-green-100">
+                  <h4 className="font-extrabold text-green-900 uppercase tracking-wider text-sm mb-2">🔒 Secure Packaging</h4>
+                  <p className="text-base md:text-lg font-bold text-slate-800 leading-normal">
+                    Delivered in fully discreet plain packaging to protect your personal privacy.
+                  </p>
+                </div>
+              </div>
+              <p className="leading-relaxed text-xs md:text-sm text-slate-500 italic mt-4">
+                *Local distribution depots in Iowa and the Midwest region ensure rapid transit and package handoffs for localized postal routes.
+              </p>
+            </div>
+
+            <hr className="border-slate-100 my-8" />
+
+            <div className="space-y-4">
+              <h3 className="text-2xl md:text-3xl font-black text-brand-navy uppercase tracking-tight">
+                Specially Tailored for Men 50+ seeking to stop Midnight waking
+              </h3>
+              <p className="leading-relaxed text-slate-800">
+                Residents in Council Bluffs can easily begin their restoration protocol today. Just one daily scoop targets biological swelling, supporting easier flow and restful nights so you can sleep soundly through the night.
+              </p>
+              
+              <div className="pt-6">
+                <a href={AFFILIATE_LINK} target="_blank" rel="noopener noreferrer" className="w-full flex items-center justify-center gap-3 bg-yellow-400 hover:bg-yellow-300 text-black px-8 py-5 rounded-2xl text-xl md:text-2xl font-black transition-all shadow-xl shadow-yellow-400/10 uppercase tracking-tighter">
+                  Check Special local pricing
+                  <ArrowRight size={22} className="shrink-0" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Detailed FAQ Section for SEO */}
       <section className="py-24 bg-slate-50 border-y border-slate-100">
         <div className="max-w-4xl mx-auto px-6">
