@@ -885,6 +885,26 @@ export default function App() {
           <div className="space-y-4">
             {[
               {
+                q: "Which medicine is best for prostate enlargement?",
+                a: "The best medicine for prostate enlargement (BPH) depends on your specific symptoms, general health, and prostate size. Clinically, doctors prescribe two main categories of medications: Alpha-blockers (such as Tamsulosin, also known as Flomax) which relax bladder neck muscle fibers to improve urine flow and decrease stream pressure quickly; and 5-Alpha Reductase Inhibitors (such as Finasteride/Proscar or Dutasteride/Avodart) which work slowly over 3 to 6 months to shrink the actual physical size of the prostate gland. Many active men choose to supplement with a premium natural formula like ProstaVive to support healthy urinary flow and cellular prostate size without the potential side effects associated with prescription pharmaceuticals."
+              },
+              {
+                q: "Can an enlarged prostate go back to normal size?",
+                a: "Yes, an enlarged prostate is clinically capable of shrinking back toward a more normal size under the correct medical or nutritional protocol. Clinicians frequently use 5-alpha reductase inhibitors to reduce the prostate volume by blocking the conversion of testosterone into DHT, the primary hormone driver behind swelling. Many men over 50 also find success through targeted dietary supplementation using organic botanical compounds—such as the high-purity Saw Palmetto, Beta-Sitosterol, and Pygeum Africanum found inside ProstaVive—which help reduce cellular swelling, soothe bladder pressure, and promote natural, healthy prostate rejuvenation over a structured 90-to-180 day cycle."
+              },
+              {
+                q: "What are the names of prostate tablets?",
+                a: "The most commonly prescribed or recommended prostate tablets and wellness formulas in the United States include:\n• Tamsulosin (Flomax): A popular alpha-blocker pill taken daily for rapid flow relief.\n• Finasteride (Proscar) & Dutasteride (Avodart): Clinically tested tablets designed to block DHT and physically shrink the gland.\n• Silodosin (Rapaflo) & Alfuzosin (Uroxatral): Prescriptions targeting urinary retention comfort.\n• ProstaVive: The premier non-prescription, all-natural daily option formulated with high-potency micronized minerals, anti-inflammatory herbs, and raw tomato lycopene for complete high-bioavailability support."
+              },
+              {
+                q: "What are the best prostate tablets?",
+                a: "The 'best' prostate tablets depend heavily on what you are looking to achieve. For rapid, immediate relief from a blocked stream, medical doctors agree that prescription alpha-blockers like Tamsulosin are excellent. For true physical reduction of the gland's tissue over time, 5-alpha reductase inhibitors are the standard drug choice. However, for men seeking an all-natural, highly comprehensive daily formula with zero sexual side effects or dizziness, ProstaVive is regarded as the leading premium option in 2026. ProstaVive combines Saw Palmetto, Pygeum, Zinc, and Vitamin D3 to safely target urinary ease, overnight waking, and cellular tissue health in one daily scoop."
+              },
+              {
+                q: "Is there a cure for enlarged prostate?",
+                a: "There is no single permanent 'cure' for an enlarged prostate (Benign Prostatic Hyperplasia, or BPH) because prostate enlargement is a natural, progressive consequence of male hormonal shifts as we age. However, the condition can be extremely well-managed, reversed, or kept in check. Standard treatment plans include prescription medications to relieve flow resistance, advanced minimally-invasive outpatient procedures (like UroLift, Rezūm steam therapy, or laser TURP surgery), and clean daily nutritional therapy. Consistently utilizing premium natural formulas like ProstaVive alongside smart dietary habits is a highly effective way to manage bladder urgency, stop frequent midnight waking, and maintain active, long-term prostate gland comfort."
+              },
+              {
                 q: "What is the best way to take ProstaVive?",
                 a: "For optimal results, simply mix one scoop of ProstaVive into a glass of water, or your favorite beverage, once a day. This ensures the proprietary blend of ingredients is absorbed efficiently by your body."
               },
