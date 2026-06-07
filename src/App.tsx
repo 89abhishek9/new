@@ -134,13 +134,13 @@ export default function App() {
             className="text-center lg:text-left"
           >
             <div className="inline-flex items-center gap-2 bg-brand-navy/40 border border-blue-50/30 px-4 py-2 rounded-full text-blue-300 text-xs font-black uppercase tracking-[0.2em] mb-8">
-              <Zap size={14} /> New Breakthrough Formula
+              <Zap size={14} /> ProstaVive Official Website
             </div>
             <h1 className="text-4xl lg:text-7xl font-serif font-black leading-tight mb-8">
               Reclaim Your <span className="text-blue-400">Prostate Vitality</span> & Sleep Through The Night
             </h1>
             <p className="text-xl text-blue-100/70 mb-10 leading-relaxed max-w-xl mx-auto lg:mx-0">
-              ProstaVive's proprietary blend addresses the root cause of prostate fatigue, helping you restore energy and confidence naturally.
+              Welcome to the **prostavive official website**! Reclaim physical energy, sustain healthy bladder flows, and reduce night waking with our certified botanical formula at the guaranteed **prostavive lowest price** online.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <a href={AFFILIATE_LINK} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-3 bg-yellow-400 text-black px-10 py-5 rounded-2xl text-xl font-black hover:bg-yellow-300 transition-all shadow-2xl shadow-yellow-400/20 group uppercase tracking-tighter">
@@ -326,9 +326,11 @@ export default function App() {
       {/* Pricing cards */}
       <section id="pricing" className="py-24 bg-blue-50 relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center mb-20">
-          <div className="inline-block bg-yellow-400 text-black px-6 py-2 rounded-full text-sm font-black uppercase tracking-[0.2em] mb-6 shadow-xl shadow-yellow-400/20">Limited Time Special</div>
+          <div className="inline-block bg-yellow-400 text-black px-6 py-2 rounded-full text-sm font-black uppercase tracking-[0.2em] mb-6 shadow-xl shadow-yellow-400/20">ProstaVive Best Price Online</div>
           <h2 className="text-5xl lg:text-8xl font-serif font-black mb-8 uppercase tracking-tighter italic">Select Your Package</h2>
-          <p className="text-2xl text-slate-500 italic max-w-2xl mx-auto">Click "Buy Now" below to take advantage of our wholesale pricing while supplies last.</p>
+          <p className="text-2xl text-slate-500 italic max-w-3xl mx-auto">
+            Review our packages below to find the guaranteed **prostavive best price online**. Your exclusive, automatic **prostavive discount code 2026** is automatically active and applied below for maximum savings.
+          </p>
         </div>
 
         <div className="max-w-7xl mx-auto px-6">
@@ -367,7 +369,7 @@ export default function App() {
             {/* 6 Bottles */}
             <div className="bg-brand-navy flex flex-col items-center text-center relative z-10 border border-brand-navy rounded-[40px] lg:rounded-none shadow-2xl lg:scale-105">
               <div className="w-full bg-yellow-400 py-6 text-black font-black uppercase tracking-[0.4em] text-xl lg:text-2xl italic underline decoration-4 underline-offset-8 shadow-2xl z-20 rounded-t-[40px] lg:rounded-none">
-                Most Popular
+                prostavive 6 bottle deal
               </div>
               <div className="p-8 lg:p-12 flex flex-col items-center w-full grow pt-16">
                 <div className="text-4xl lg:text-7xl font-serif font-black text-white mb-1 leading-none tracking-tighter">6 BOTTLES</div>
@@ -401,7 +403,7 @@ export default function App() {
 
             {/* 3 Bottles */}
             <div className="bg-[#f8fbff] p-8 lg:p-12 flex flex-col items-center text-center border border-blue-100 rounded-[40px] lg:rounded-none lg:rounded-r-[60px] lg:border-l-0">
-              <h3 className="text-sm font-black uppercase tracking-[0.3em] text-slate-500 mb-4">Great Value</h3>
+              <h3 className="text-sm font-black uppercase tracking-[0.3em] text-slate-500 mb-4">prostavive 3 bottle deal</h3>
               <div className="text-4xl lg:text-6xl font-serif font-black text-brand-navy mb-1 leading-none tracking-tighter">3 BOTTLES</div>
               <div className="text-blue-500 font-black text-sm uppercase tracking-widest mb-10">90-day supply</div>
               
@@ -467,7 +469,7 @@ export default function App() {
             <div>
               <h2 className="text-3xl lg:text-7xl font-serif font-black mb-6 lg:mb-10 uppercase tracking-tighter italic leading-none">Your Results Are <br className="hidden lg:block"/> <span className="text-yellow-600">GUARANTEED.</span></h2>
               <p className="text-lg lg:text-2xl text-slate-700 mb-8 lg:mb-10 leading-relaxed italic font-medium">
-                Try ProstaVive for a full 180 days. If you don't sleep better, have more energy, and notice a significant improvement in your urinary health—simply return the bottles for a <span className="font-black text-black underline decoration-yellow-400 underline-offset-8">full refund.</span>
+                Try ProstaVive for a full 180 days risk-free. Our ironclad **prostavive money back guarantee** ensures that if you do not feel fully revitalized or notice a dramatic flow improvement, you get a 100% full refund.
               </p>
               <div className="flex flex-wrap items-center justify-center lg:justify-start gap-10">
                 <div className="flex items-center gap-3 text-sm font-black uppercase tracking-widest text-[#5cb85c]">
@@ -573,7 +575,7 @@ export default function App() {
           {/* Article Container with beautiful editorial, high-contrast & high-readability styling for 50+ age group */}
           <div className="max-w-none text-slate-900 leading-relaxed text-lg md:text-[21px] space-y-10 font-medium">
             <p className="text-xl md:text-2xl text-slate-800 italic border-l-4 border-blue-500 pl-6 py-3 bg-blue-50/55 rounded-r-3xl pr-6 leading-relaxed">
-              If you've been searching for an honest ProstaVive review, you're in the right place. With so many prostate supplements flooding the market in 2026, it's fair to ask: does ProstaVive actually work, or is it just another overhyped bottle of capsules? Let's break down exactly what ProstaVive is, what's inside it, what real users are saying, and whether it's worth your money.
+              If you've been searching for an honest ProstaVive review, you're in the right place. With so many prostate supplements flooding the market in 2026, it's fair to ask: does ProstaVive actually work, or is it just another overhyped bottle of capsules? When choosing to **buy prostavive official website** configurations ensure you are purchasing the 100% authentic formula with zero risk. Let's break down exactly what ProstaVive is, what's inside it, what real users are saying, and whether it is worth your time.
             </p>
 
             <hr className="border-slate-100 my-8" />
@@ -601,6 +603,18 @@ export default function App() {
               </ul>
               <p className="mt-6 leading-relaxed">
                 It comes with an extraordinary <strong className="font-black text-brand-navy underline decoration-blue-500 underline-offset-4">180-day money-back guarantee</strong>, which is one of the longest coverage options in the wellness industry—a strong statement of confidence from the formulator.
+              </p>
+            </div>
+
+            <hr className="border-slate-100 my-8" />
+
+            <div className="space-y-6">
+              <h3 className="text-3xl md:text-4xl font-black text-brand-navy uppercase tracking-tight">ProstaVive Where To Buy & Order Online</h3>
+              <p className="leading-relaxed">
+                When discussing **prostavive where to buy**, the answer is incredibly simple and strictly enforced. To maintain low wholesale prices and guarantee product safety, you can only **prostavive order online** via our direct links. Genuine bottles are not distributed to local pharmacies or wholesale shops.
+              </p>
+              <p className="leading-relaxed">
+                We also offer various promo options: any active **prostavive coupon code** or **prostavive discount code 2026** is automatically applied upon checkout to let you buy at the optimal price. Furthermore, qualified multi-bottle bundles receive 100% complimentary **prostavive free shipping**, routing directly from our secure warehouse.
               </p>
             </div>
 
