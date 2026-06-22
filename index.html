@@ -1,6 +1,35 @@
 <!doctype html>
 <html lang="en-US">
   <head>
+    <!-- Prevents third party browser extensions from throwing fatal "Cannot redefine property: ethereum" errors in sandboxed iframe environments -->
+    <script>
+      (function() {
+        const originalDefineProperty = Object.defineProperty;
+        Object.defineProperty = function(obj, prop, descriptor) {
+          try {
+            return originalDefineProperty.apply(this, arguments);
+          } catch (e) {
+            if (prop === 'ethereum' || (e.message && e.message.indexOf('redefine property') > -1)) {
+              console.warn("Intercepted and suppressed fatal redefine property error in environment:", prop);
+              return obj;
+            }
+            throw e;
+          }
+        };
+        const originalDefineProperties = Object.defineProperties;
+        Object.defineProperties = function(obj, props) {
+          try {
+            return originalDefineProperties.apply(this, arguments);
+          } catch (e) {
+            if ((props && 'ethereum' in props) || (e.message && e.message.indexOf('redefine property') > -1)) {
+              console.warn("Intercepted and suppressed fatal redefine properties error in environment.");
+              return obj;
+            }
+            throw e;
+          }
+        };
+      })();
+    </script>
     <!-- Geographical Targeting & SEO For United States Indexing only -->
     <meta name="geo.region" content="US" />
     <meta name="geo.placename" content="United States" />
