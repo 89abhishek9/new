@@ -26,6 +26,10 @@ import {
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
+const testimonialImage1 = "/src/assets/images/regenerated_image_1782538963498.webp";
+const testimonialImage2 = "/src/assets/images/regenerated_image_1782538964453.jpg";
+const testimonialImage3 = "/src/assets/images/regenerated_image_1782538965475.jpg";
+
 const ingredients = [
   { name: "Saw Palmetto", desc: "Supports healthy urinary flow and prostate size." },
   { name: "Beta-Sitosterol", desc: "Clinically proven to improve urinary symptoms." },
@@ -39,31 +43,76 @@ const AFFILIATE_LINK = "https://prostavive.org?&shield=d75090k7qs5z4n9f486fwa2la
 
 const testimonials = [
   { 
-    name: "John D.", 
-    age: 58, 
-    text: "I've tried everything, but ProstaVive is the only thing that stopped those 3 AM bathroom runs. I feel 10 years younger!", 
+    name: "Arthur P. (Texas)", 
+    age: 68, 
+    text: "At 68, I was waking up 4 or 5 times every single night. It was exhausting. I started taking Prosta Vive and the difference is complete night and day. Now I sleep solidly for 6 to 7 hours straight. True blessing!", 
     rating: 5,
-    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=256&h=256&auto=format&fit=crop"
+    image: testimonialImage1
   },
   { 
-    name: "Robert M.", 
-    age: 64, 
-    text: "Finally, a supplement that actually works. My energy is back, and I feel much more confident throughout the day.", 
+    name: "Douglas M. (Florida)", 
+    age: 63, 
+    text: "I was extremely skeptical, but after ordering from the Prosta Vive official website, the results blew me away. My urine flow is strong and steady again, and I don't feel that constant nagging urgency anymore.", 
     rating: 5,
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=256&h=256&auto=format&fit=crop"
+    image: testimonialImage2
   },
   { 
-    name: "William S.", 
-    age: 52, 
-    text: "The breakthrough formula is no joke. I noticed a difference within the first two weeks. Highly recommend!", 
-    rating: 4,
-    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=256&h=256&auto=format&fit=crop"
+    name: "Richard E. (Ohio)", 
+    age: 71, 
+    text: "Over 70 and my quality of sleep has never been better. Prosta Vive worked remarkably well for my stream flow and pattern. Having an ironclad 180-day guarantee made it a risk-free trial, but I am keeping every bottle!", 
+    rating: 5,
+    image: testimonialImage3
   },
+];
+
+const purchaseNotifications = [
+  { name: "William S.", location: "Houston, TX", bottles: 6, time: "4 minutes ago" },
+  { name: "Robert H.", location: "Miami, FL", bottles: 3, time: "11 minutes ago" },
+  { name: "James D.", location: "Columbus, OH", bottles: 6, time: "17 minutes ago" },
+  { name: "Arthur P.", location: "Dallas, TX", bottles: 6, time: "24 minutes ago" },
+  { name: "Douglas M.", location: "Orlando, FL", bottles: 3, time: "31 minutes ago" },
+  { name: "Richard E.", location: "Cincinnati, OH", bottles: 1, time: "43 minutes ago" },
+  { name: "Thomas K.", location: "Phoenix, AZ", bottles: 6, time: "50 minutes ago" }
 ];
 
 export default function App() {
   const [activeFaq, setActiveFaq] = useState<number | null>(null);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  // Rotating purchase notification state
+  const [currentNotification, setCurrentNotification] = useState<typeof purchaseNotifications[0] | null>(null);
+  const [isNotificationVisible, setIsNotificationVisible] = useState(false);
+
+  useEffect(() => {
+    let index = 0;
+    
+    // Show first notification after 5 seconds
+    const initialTimer = setTimeout(() => {
+      setCurrentNotification(purchaseNotifications[index]);
+    }, 5000);
+
+    // Set interval to rotate every 15 seconds
+    const interval = setInterval(() => {
+      index = (index + 1) % purchaseNotifications.length;
+      setCurrentNotification(purchaseNotifications[index]);
+    }, 15000);
+
+    return () => {
+      clearTimeout(initialTimer);
+      clearInterval(interval);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (currentNotification) {
+      setIsNotificationVisible(true);
+      // Auto-hide the notification after 6 seconds
+      const hideTimer = setTimeout(() => {
+        setIsNotificationVisible(false);
+      }, 6000);
+      return () => clearTimeout(hideTimer);
+    }
+  }, [currentNotification?.name]);
 
   const productWithIngredientsImage = "/images/prostavive-bottle-ingredients.png";
   const bottleImage = "/images/prostavive-bottle-ingredients.png";
@@ -305,16 +354,16 @@ export default function App() {
                   {[...Array(t.rating)].map((_, i) => <Star key={i} size={20} fill="currentColor" />)}
                 </div>
                 <p className="text-xl text-slate-700 italic mb-10 leading-relaxed font-medium">"{t.text}"</p>
-                <div className="flex items-center gap-5">
+                <div className="flex items-center gap-6">
                   <img 
                     src={t.image} 
                     alt={t.name} 
-                    className="w-14 h-14 rounded-full object-cover border-2 border-brand-navy shadow-lg"
+                    className="w-24 h-24 rounded-full object-cover border-4 border-white ring-4 ring-brand-navy/10 shadow-xl shrink-0"
                     referrerPolicy="no-referrer"
                   />
                   <div>
-                    <div className="font-black text-brand-navy text-lg uppercase tracking-tight">{t.name}</div>
-                    <div className="text-sm font-black text-blue-500 uppercase tracking-widest">{t.age} Years Old</div>
+                    <div className="font-black text-brand-navy text-xl uppercase tracking-tight leading-tight mb-1">{t.name}</div>
+                    <div className="bg-blue-500/10 text-blue-600 px-3 py-1 rounded-full text-xs font-black uppercase tracking-widest inline-block">{t.age} Years Old</div>
                   </div>
                 </div>
               </motion.div>
@@ -1035,6 +1084,39 @@ export default function App() {
           </div>
         </div>
       </footer>
+
+      {/* Floating Rotating Purchase Notification Popup */}
+      <AnimatePresence>
+        {isNotificationVisible && currentNotification && (
+          <motion.div
+            id="purchase-popup"
+            initial={{ opacity: 0, y: 50, scale: 0.95 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            exit={{ opacity: 0, y: 30, scale: 0.95 }}
+            transition={{ type: "spring", stiffness: 300, damping: 25 }}
+            className="fixed bottom-6 left-6 right-6 md:right-auto md:w-96 bg-white border border-slate-100 rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.15)] p-4 flex items-center gap-4 z-[999] backdrop-blur-md bg-white/95"
+          >
+            <div className="w-12 h-12 rounded-full bg-green-500/10 flex items-center justify-center text-green-600 shrink-0 ring-4 ring-green-500/5">
+              <CheckCircle2 size={24} className="animate-pulse" />
+            </div>
+            <div className="flex-1 min-w-0">
+              <div className="flex items-center gap-1.5 mb-0.5">
+                <span className="w-2 h-2 rounded-full bg-green-500 animate-ping" />
+                <p className="text-[10px] font-black text-green-600 uppercase tracking-widest">Verified Purchase</p>
+              </div>
+              <p className="text-sm font-bold text-brand-navy leading-snug">
+                <span className="font-black text-blue-900">{currentNotification.name}</span> from <span className="font-extrabold text-blue-900">{currentNotification.location}</span>
+              </p>
+              <p className="text-xs text-slate-600 mt-0.5">
+                Purchased <span className="font-extrabold text-brand-navy">{currentNotification.bottles} {currentNotification.bottles === 6 ? 'Bottles (Most Popular)' : currentNotification.bottles === 1 ? 'Bottle' : 'Bottles'}</span> of Prosta Vive
+              </p>
+            </div>
+            <div className="text-[10px] font-bold text-slate-400 self-start pt-1 shrink-0">
+              {currentNotification.time}
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }
