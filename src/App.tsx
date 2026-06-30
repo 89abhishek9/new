@@ -39,7 +39,7 @@ const ingredients = [
   { name: "Lycopene", desc: "Powerful antioxidant found in tomatoes for cell protection." },
 ];
 
-const AFFILIATE_LINK = "https://prostavive.org?&shield=d75090k7qs5z4n9f486fwa2lam";
+const AFFILIATE_LINK = "https://b26eayk3ju5q8z7o68y3--bu0x.hop.clickbank.net/?&extclid=abhi135";
 
 const testimonials = [
   { 
@@ -121,7 +121,7 @@ export default function App() {
     <div className="min-h-screen bg-white font-sans text-brand-navy overflow-x-hidden">
       {/* Header */}
       <header className="bg-brand-navy text-white py-4 px-6 fixed w-full z-[100] flex justify-between items-center backdrop-blur-md bg-opacity-90 border-b border-white/5">
-        <a href={AFFILIATE_LINK} target="_blank" rel="noopener noreferrer" className="text-2xl font-black italic tracking-tighter uppercase hover:opacity-80 transition-opacity">
+        <a href={AFFILIATE_LINK} target="_blank" rel="noopener noreferrer" className="text-2xl font-black tracking-tighter uppercase hover:opacity-80 transition-opacity">
           <span className="text-blue-400">Prosta</span>
           <span className="text-white">Vive</span>
         </a>
@@ -189,7 +189,7 @@ export default function App() {
               Reclaim Your <span className="text-blue-400">Prostate Vitality</span> & Sleep With Prosta Vive®
             </h1>
             <p className="text-xl text-blue-100/70 mb-10 leading-relaxed max-w-xl mx-auto lg:mx-0">
-              Welcome to the authorized **prosta vive official website**! Reclaim your physical energy, sustain active bladder flows, and restore restful sleep with our certified natural formula at the guaranteed **prosta vive lowest price** online.
+              Welcome to the authorized <strong className="text-white font-extrabold">prosta vive official website</strong>! Reclaim your physical energy, sustain active bladder flows, and restore restful sleep with our certified natural formula at the guaranteed <strong className="text-white font-extrabold">prosta vive lowest price</strong> online.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <a href={AFFILIATE_LINK} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-3 bg-yellow-400 text-black px-10 py-5 rounded-2xl text-xl font-black hover:bg-yellow-300 transition-all shadow-2xl shadow-yellow-400/20 group uppercase tracking-tighter">
@@ -252,9 +252,9 @@ export default function App() {
               </div>
             </div>
             <div className="text-center lg:text-left">
-              <h2 className="text-3xl lg:text-5xl font-serif font-black mb-8 leading-tight uppercase tracking-tighter italic">It's Not Just About Comfort... <br className="hidden lg:block"/> It's Your Vitality.</h2>
+              <h2 className="text-3xl lg:text-5xl font-serif font-black mb-8 leading-tight uppercase tracking-tighter">It's Not Just About Comfort... <br className="hidden lg:block"/> It's Your Vitality.</h2>
               <p className="text-xl text-slate-600 mb-8 leading-relaxed">
-                Most men assume that frequent nightly visits are just "part of getting older." But the reality is far more serious. This cycle of poor sleep and internal stress literally **drains your battery**, making you feel aged, tired, and unmotivated.
+                Most men assume that frequent nightly visits are just "part of getting older." But the reality is far more serious. This cycle of poor sleep and internal stress literally <strong className="text-brand-navy font-extrabold">drains your battery</strong>, making you feel aged, tired, and unmotivated.
               </p>
               <div className="grid grid-cols-2 gap-4 max-w-md mx-auto lg:mx-0">
                 <div className="p-6 border-l-4 border-blue-500 bg-blue-50 rounded-r-2xl">
@@ -275,8 +275,8 @@ export default function App() {
       <section className="py-24 bg-slate-50 border-y border-slate-200">
         <div className="max-w-7xl mx-auto px-6 text-center mb-20">
           <div className="inline-block bg-brand-navy text-white px-4 py-1 rounded-full text-xs font-black uppercase tracking-[0.3em] mb-4">Science First</div>
-          <h2 className="text-4xl lg:text-6xl font-serif font-black mb-6 uppercase tracking-tighter italic">Why Choose ProstaVive?</h2>
-          <p className="text-2xl text-brand-navy font-serif font-bold italic opacity-80">The First Breakthrough Formula Addressing "Energy-Drain" Biology.</p>
+          <h2 className="text-4xl lg:text-6xl font-serif font-black mb-6 uppercase tracking-tighter">Why Choose ProstaVive?</h2>
+          <p className="text-2xl text-brand-navy font-serif font-bold opacity-80">The First Breakthrough Formula Addressing "Energy-Drain" Biology.</p>
         </div>
 
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-8 lg:gap-12">
@@ -309,7 +309,7 @@ export default function App() {
       {/* How it restore prostate health */}
       <section id="how-it-works" className="py-24 bg-brand-navy text-white relative">
         <div className="max-w-7xl mx-auto px-6 relative z-10 text-center">
-          <h2 className="text-3xl lg:text-7xl font-serif font-black mb-12 lg:mb-20 uppercase tracking-tighter italic">How It Restores Health</h2>
+          <h2 className="text-3xl lg:text-7xl font-serif font-black mb-12 lg:mb-20 uppercase tracking-tighter">How It Restores Health</h2>
           <div className="grid md:grid-cols-3 gap-12 lg:gap-16">
             <div className="relative group">
               <div className="text-[80px] lg:text-[120px] font-black text-white/5 absolute -top-8 lg:-top-16 left-1/2 -translate-x-1/2 group-hover:text-white/10 transition-colors">01</div>
@@ -338,11 +338,11 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col lg:flex-row justify-between items-center lg:items-end mb-20 gap-8 text-center lg:text-left">
             <div className="max-w-3xl">
-              <h2 className="text-4xl lg:text-7xl font-serif font-black mb-6 uppercase tracking-tighter italic">What Men Are Saying</h2>
-              <p className="text-xl text-slate-500 italic">"I've tried everything. This is different."</p>
+              <h2 className="text-4xl lg:text-7xl font-serif font-black mb-6 uppercase tracking-tighter">What Men Are Saying</h2>
+              <p className="text-xl text-slate-500">"I've tried everything. This is different."</p>
             </div>
             <div className="flex items-center gap-6 bg-brand-navy text-white px-10 py-5 rounded-[30px] shadow-2xl shrink-0">
-              <div className="text-4xl font-black italic tracking-tighter">4.9/5</div>
+              <div className="text-4xl font-black tracking-tighter">4.9/5</div>
               <div className="flex text-yellow-400 gap-1"><Star fill="currentColor" size={24} /><Star fill="currentColor" size={24} /><Star fill="currentColor" size={24} /><Star fill="currentColor" size={24} /><Star fill="currentColor" size={24} /></div>
             </div>
           </div>
@@ -353,7 +353,7 @@ export default function App() {
                 <div className="flex text-yellow-500 mb-8">
                   {[...Array(t.rating)].map((_, i) => <Star key={i} size={20} fill="currentColor" />)}
                 </div>
-                <p className="text-xl text-slate-700 italic mb-10 leading-relaxed font-medium">"{t.text}"</p>
+                <p className="text-xl text-slate-700 mb-10 leading-relaxed font-medium">"{t.text}"</p>
                 <div className="flex items-center gap-6">
                   <img 
                     src={t.image} 
@@ -375,9 +375,9 @@ export default function App() {
       <section id="pricing" className="py-24 bg-blue-50 relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center mb-20">
           <div className="inline-block bg-yellow-400 text-black px-6 py-2 rounded-full text-sm font-black uppercase tracking-[0.2em] mb-6 shadow-xl shadow-yellow-400/20">Prosta Vive Best Price Online</div>
-          <h2 className="text-5xl lg:text-8xl font-serif font-black mb-8 uppercase tracking-tighter italic">Select Your Package</h2>
-          <p className="text-2xl text-slate-500 italic max-w-3xl mx-auto">
-            Review our packages below to find the guaranteed **prosta vive best price online**. Your exclusive, automatic **prosta vive discount code 2026** is automatically active and applied below for maximum savings. Also includes active **prosta vive coupon code** and complimentary delivery!
+          <h2 className="text-5xl lg:text-8xl font-serif font-black mb-8 uppercase tracking-tighter">Select Your Package</h2>
+          <p className="text-2xl text-slate-500 max-w-3xl mx-auto">
+            Review our packages below to find the guaranteed prosta vive best price online. Your exclusive, automatic prosta vive discount code 2026 is automatically active and applied below for maximum savings. Also includes active prosta vive coupon code and complimentary delivery!
           </p>
         </div>
 
@@ -393,7 +393,7 @@ export default function App() {
                 <img src={productWithIngredientsImage} alt="ProstaVive Starter Pack - 1 Bottle" className="max-h-full w-auto" loading="lazy" />
               </div>
  
-              <div className="flex items-baseline gap-1 mb-8 lg:mb-12 italic">
+              <div className="flex items-baseline gap-1 mb-8 lg:mb-12">
                 <span className="text-6xl lg:text-8xl font-serif font-black text-brand-navy">$69</span>
                 <span className="text-slate-500 text-xl lg:text-2xl font-bold">/ Bottle</span>
               </div>
@@ -416,7 +416,7 @@ export default function App() {
 
             {/* 6 Bottles */}
             <div className="bg-brand-navy flex flex-col items-center text-center relative z-10 border border-brand-navy rounded-[40px] lg:rounded-none shadow-2xl lg:scale-105">
-              <div className="w-full bg-yellow-400 py-6 text-black font-black uppercase tracking-[0.4em] text-xl lg:text-2xl italic underline decoration-4 underline-offset-8 shadow-2xl z-20 rounded-t-[40px] lg:rounded-none">
+              <div className="w-full bg-yellow-400 py-6 text-black font-black uppercase tracking-[0.4em] text-xl lg:text-2xl underline decoration-4 underline-offset-8 shadow-2xl z-20 rounded-t-[40px] lg:rounded-none">
                 prosta vive 6 bottle deal
               </div>
               <div className="p-8 lg:p-12 flex flex-col items-center w-full grow pt-16">
@@ -431,7 +431,7 @@ export default function App() {
                   </div>
                 </div>
 
-                <div className="flex items-baseline gap-1 mb-8 lg:mb-12 italic text-white">
+                <div className="flex items-baseline gap-1 mb-8 lg:mb-12 text-white">
                   <span className="text-6xl lg:text-9xl font-serif font-black">$39</span>
                   <span className="text-xl lg:text-3xl font-bold opacity-60">/ Bottle</span>
                 </div>
@@ -444,7 +444,7 @@ export default function App() {
                   <div className="text-sm lg:text-lg font-black text-yellow-400 uppercase tracking-[0.2em] flex items-center gap-3">
                     <CheckCircle2 size={24} /> FREE US Shipping
                   </div>
-                  <div className="mt-4 text-4xl lg:text-6xl font-serif font-black text-white tracking-tighter italic opacity-90">$234 Total</div>
+                  <div className="mt-4 text-4xl lg:text-6xl font-serif font-black text-white tracking-tighter opacity-90">$234 Total</div>
                 </div>
               </div>
             </div>
@@ -459,7 +459,7 @@ export default function App() {
                  <img src={productWithIngredientsImage} alt="ProstaVive Bundle Pack - 3 Bottles" className="max-h-full w-auto" loading="lazy" />
               </div>
  
-              <div className="flex items-baseline gap-1 mb-8 lg:mb-12 italic">
+              <div className="flex items-baseline gap-1 mb-8 lg:mb-12">
                 <span className="text-6xl lg:text-8xl font-serif font-black text-brand-navy">$59</span>
                 <span className="text-slate-500 text-xl lg:text-2xl font-bold">/ Bottle</span>
               </div>
@@ -472,7 +472,7 @@ export default function App() {
                 <div className="text-sm font-black text-black uppercase tracking-widest flex items-center gap-2">
                    <CheckCircle2 size={18} className="text-[#5cb85c]" /> FREE US Shipping
                 </div>
-                <div className="mt-4 text-4xl font-serif font-black text-[#11243f] tracking-tighter italic">$177 Total</div>
+                <div className="mt-4 text-4xl font-serif font-black text-[#11243f] tracking-tighter">$177 Total</div>
               </div>
             </div>
           </div>
@@ -483,8 +483,8 @@ export default function App() {
       <section id="ingredients" className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-20">
-            <h2 className="text-4xl lg:text-7xl font-serif font-black mb-8 uppercase tracking-tighter italic leading-none">Natural Potency</h2>
-            <p className="text-xl lg:text-2xl text-slate-500 italic max-w-2xl mx-auto">No synthetic fillers. No harmful chemicals. Just pure botanical potency.</p>
+            <h2 className="text-4xl lg:text-7xl font-serif font-black mb-8 uppercase tracking-tighter leading-none">Natural Potency</h2>
+            <p className="text-xl lg:text-2xl text-slate-500 max-w-2xl mx-auto">No synthetic fillers. No harmful chemicals. Just pure botanical potency.</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 lg:gap-8">
             {ingredients.map((ing, i) => (
@@ -512,12 +512,12 @@ export default function App() {
                  <div className="text-6xl lg:text-9xl font-serif font-black text-black leading-none">180</div>
                  <div className="text-sm lg:text-lg font-black uppercase tracking-[0.3em] text-slate-500 leading-none mt-2">DAYS</div>
                </div>
-               <div className="absolute -bottom-4 lg:-bottom-6 left-1/2 -translate-x-1/2 bg-yellow-400 text-black px-6 lg:px-10 py-2 lg:py-3 rounded-full font-black text-lg lg:text-xl uppercase tracking-tighter shadow-xl italic rotate-6">IRONCLAD</div>
+               <div className="absolute -bottom-4 lg:-bottom-6 left-1/2 -translate-x-1/2 bg-yellow-400 text-black px-6 lg:px-10 py-2 lg:py-3 rounded-full font-black text-lg lg:text-xl uppercase tracking-tighter shadow-xl rotate-6">IRONCLAD</div>
             </div>
             <div>
-              <h2 className="text-3xl lg:text-7xl font-serif font-black mb-6 lg:mb-10 uppercase tracking-tighter italic leading-none">Your Results Are <br className="hidden lg:block"/> <span className="text-yellow-600">GUARANTEED.</span></h2>
-              <p className="text-lg lg:text-2xl text-slate-700 mb-8 lg:mb-10 leading-relaxed italic font-medium">
-                Try Prosta Vive® for a full 180 days risk-free. Our ironclad **prosta vive money back guarantee** (also supporting ProstaVive) ensures that if you do not feel fully revitalized or notice a dramatic flow improvement, you get a 100% full refund.
+              <h2 className="text-3xl lg:text-7xl font-serif font-black mb-6 lg:mb-10 uppercase tracking-tighter leading-none">Your Results Are <br className="hidden lg:block"/> <span className="text-yellow-600">GUARANTEED.</span></h2>
+              <p className="text-lg lg:text-2xl text-slate-700 mb-8 lg:mb-10 leading-relaxed font-medium">
+                Try Prosta Vive® for a full 180 days risk-free. Our ironclad <strong className="text-brand-navy font-extrabold">prosta vive money back guarantee</strong> (also supporting ProstaVive) ensures that if you do not feel fully revitalized or notice a dramatic flow improvement, you get a 100% full refund.
               </p>
               <div className="flex flex-wrap items-center justify-center lg:justify-start gap-10">
                 <div className="flex items-center gap-3 text-sm font-black uppercase tracking-widest text-[#5cb85c]">
@@ -534,7 +534,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
           <div className="text-center lg:text-left">
             <div className="text-blue-400 font-black uppercase tracking-[0.4em] mb-6 text-sm">Life Transformation</div>
-            <h2 className="text-4xl lg:text-8xl font-serif font-black mb-12 leading-none uppercase tracking-tighter italic">Imagine Your <span className="text-yellow-400">New Life...</span></h2>
+            <h2 className="text-4xl lg:text-8xl font-serif font-black mb-12 leading-none uppercase tracking-tighter">Imagine Your <span className="text-yellow-400">New Life...</span></h2>
             <div className="space-y-10 text-left">
               {[
                 { title: "Deep Restoration", desc: "Sleep through the night without a single interruption. Wake up feeling truly alive." },
@@ -547,7 +547,7 @@ export default function App() {
                   </div>
                   <div>
                     <h4 className="text-xl lg:text-2xl font-black mb-2 uppercase tracking-tight">{item.title}</h4>
-                    <p className="text-blue-100/60 text-lg italic leading-relaxed text-[15.2px]">{item.desc}</p>
+                    <p className="text-blue-100/60 text-lg leading-relaxed text-[15.2px]">{item.desc}</p>
                   </div>
                 </div>
               ))}
@@ -557,7 +557,7 @@ export default function App() {
              <div className="aspect-[4/5] bg-gradient-to-t from-black to-brand-navy rounded-[40px] lg:rounded-[60px] overflow-hidden relative shadow-3xl border border-white/10">
                 <img src="/images/active-healthy-older-man.png" alt="Healthy active older man enjoying life outdoors with high energy" className="w-full h-full object-cover mix-blend-overlay opacity-60" />
                 <div className="absolute bottom-8 lg:bottom-12 left-8 lg:left-12 right-8 lg:right-12">
-                   <div className="text-3xl lg:text-5xl font-serif font-black text-white italic tracking-tighter mb-4 leading-none">"I haven't felt this strong in 20 years."</div>
+                   <div className="text-3xl lg:text-5xl font-serif font-black text-white tracking-tighter mb-4 leading-none">"I haven't felt this strong in 20 years."</div>
                    <div className="text-blue-400 font-bold uppercase tracking-widest text-sm">— Mark R., Age 61</div>
                 </div>
              </div>
@@ -568,7 +568,7 @@ export default function App() {
       {/* What happen when you buy */}
       <section className="py-20 lg:py-24 bg-white border-b border-slate-100">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-16 lg:mb-20 italic">
+          <div className="text-center mb-16 lg:mb-20">
             <h2 className="text-3xl lg:text-7xl font-serif font-black mb-6 lg:mb-8 uppercase tracking-tighter leading-none text-brand-navy">Instant Activation</h2>
             <p className="text-xl lg:text-2xl text-slate-500">What Happens The Moment You Click Order?</p>
           </div>
@@ -612,18 +612,18 @@ export default function App() {
             <span className="inline-flex items-center gap-1 bg-blue-50 text-blue-700 px-4 py-1.5 rounded-full text-xs font-black uppercase tracking-wider mb-4">
               Honest 2026 Analysis
             </span>
-            <h2 className="text-4xl lg:text-6xl font-serif font-black uppercase tracking-tighter italic text-brand-navy mb-4">
+            <h2 className="text-4xl lg:text-6xl font-serif font-black uppercase tracking-tighter text-brand-navy mb-4">
               Prosta Vive Review: <span className="text-blue-600">Does It Work?</span>
             </h2>
-            <p className="text-xl text-slate-500 font-medium italic">
+            <p className="text-xl text-slate-500 font-medium">
               A comprehensive, ingredient-focused, and evidence-backed breakdown.
             </p>
           </div>
 
           {/* Article Container with beautiful editorial, high-contrast & high-readability styling for 50+ age group */}
           <div className="max-w-none text-slate-900 leading-relaxed text-lg md:text-[21px] space-y-10 font-medium">
-            <p className="text-xl md:text-2xl text-slate-800 italic border-l-4 border-blue-500 pl-6 py-3 bg-blue-50/55 rounded-r-3xl pr-6 leading-relaxed">
-              If you've been searching for an honest Prosta Vive review, you're in the right place. With so many prostate supplements flooding the market in 2026, it's fair to ask: does Prosta Vive actually work, or is it just another overhyped bottle of capsules? When choosing to **buy prosta vive official website** configurations ensure you are purchasing the 100% authentic formula with zero risk. Let's break down exactly what Prosta Vive is, what's inside it, what real users are saying, and whether it is worth your time.
+            <p className="text-xl md:text-2xl text-slate-800 border-l-4 border-blue-500 pl-6 py-3 bg-blue-50/55 rounded-r-3xl pr-6 leading-relaxed">
+              If you've been searching for an honest Prosta Vive review, you're in the right place. With so many prostate supplements flooding the market in 2026, it's fair to ask: does Prosta Vive actually work, or is it just another overhyped bottle of capsules? When choosing to buy prosta vive official website configurations ensure you are purchasing the 100% authentic formula with zero risk. Let's break down exactly what Prosta Vive is, what's inside it, what real users are saying, and whether it is worth your time.
             </p>
 
             <hr className="border-slate-100 my-8" />
@@ -659,10 +659,10 @@ export default function App() {
             <div className="space-y-6">
               <h3 className="text-3xl md:text-4xl font-black text-brand-navy uppercase tracking-tight">Prosta Vive Where To Buy & Order Online</h3>
               <p className="leading-relaxed">
-                When discussing **prosta vive where to buy**, the answer is incredibly simple and strictly enforced. To maintain low wholesale prices and guarantee product safety, you can only **prosta vive order online** via our direct links. Genuine bottles are not distributed to local pharmacies or wholesale shops.
+                When discussing prosta vive where to buy, the answer is incredibly simple and strictly enforced. To maintain low wholesale prices and guarantee product safety, you can only prosta vive order online via our direct links. Genuine bottles are not distributed to local pharmacies or wholesale shops.
               </p>
               <p className="leading-relaxed">
-                We also offer various promo options: any active **prosta vive coupon code** or **prosta vive discount code 2026** is automatically applied upon checkout to let you buy at the optimal price. Furthermore, qualified multi-bottle bundles receive 100% complimentary **prosta vive free shipping**, routing directly from our secure warehouse.
+                We also offer various promo options: any active prosta vive coupon code or prosta vive discount code 2026 is automatically applied upon checkout to let you buy at the optimal price. Furthermore, qualified multi-bottle bundles receive 100% complimentary prosta vive free shipping, routing directly from our secure warehouse.
               </p>
             </div>
 
@@ -796,7 +796,7 @@ export default function App() {
                   </tbody>
                 </table>
               </div>
-              <p className="text-xs md:text-sm text-slate-500 italic mt-4 text-center">
+              <p className="text-xs md:text-sm text-slate-500 mt-4 text-center">
                 *Consistency is paramount. The formulator highly suggests completing a thorough 90 to 180 day protocol.
               </p>
             </div>
@@ -823,7 +823,7 @@ export default function App() {
 
             <div className="bg-gradient-to-br from-brand-navy to-black p-8 md:p-12 lg:p-16 rounded-[40px] text-white space-y-6 text-center lg:text-left relative overflow-hidden border border-white/10 mt-12 bg-slate-950">
               <div className="space-y-3">
-                <h3 className="text-3xl md:text-4xl lg:text-5xl font-serif font-black italic tracking-tight text-white uppercase">The Final Verdict: Is It Worth It?</h3>
+                <h3 className="text-3xl md:text-4xl lg:text-5xl font-serif font-black tracking-tight text-white uppercase">The Final Verdict: Is It Worth It?</h3>
                 <p className="text-blue-100/80 text-base md:text-lg lg:text-xl font-bold max-w-3xl leading-relaxed">
                   With premium researched dosages, an pristine clean clinical manufacturing lineage, and a completely risk-free 180-day money-back policy, ProstaVive represents a leading, high-value natural formula for active men.
                 </p>
@@ -831,7 +831,7 @@ export default function App() {
               <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-8 pt-6 border-t border-white/10">
                 <div className="space-y-2">
                   <div className="text-yellow-400 font-extrabold uppercase tracking-widest text-sm">OFFICIAL STORE PRICING</div>
-                  <div className="text-2xl md:text-3xl font-bold font-serif italic text-white leading-tight">Guaranteed Authentic & Verified Direct Stock</div>
+                  <div className="text-2xl md:text-3xl font-bold font-serif text-white leading-tight">Guaranteed Authentic & Verified Direct Stock</div>
                 </div>
                 <a href={AFFILIATE_LINK} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-yellow-400 text-black px-10 py-5 rounded-2xl text-[20px] font-black hover:bg-yellow-300 transition-all shadow-xl shadow-yellow-400/10 uppercase tracking-tighter shrink-0 text-center">
                   Secure Your Supply Direct
@@ -854,10 +854,10 @@ export default function App() {
             <span className="inline-flex items-center gap-2 bg-yellow-100 text-yellow-950 border border-yellow-200 px-4 py-1.5 rounded-full text-xs md:text-sm font-black uppercase tracking-wider mb-4">
               📍 Local Shipping Guide &amp; Availability
             </span>
-            <h2 className="text-4xl lg:text-6xl font-serif font-black uppercase tracking-tighter italic text-brand-navy mb-4 leading-none">
+            <h2 className="text-4xl lg:text-6xl font-serif font-black uppercase tracking-tighter text-brand-navy mb-4 leading-none">
               ProstaVive in <span className="text-blue-600">Council Bluffs, Iowa</span>
             </h2>
-            <p className="text-xl md:text-2xl text-slate-500 font-medium italic">
+            <p className="text-xl md:text-2xl text-slate-500 font-medium">
               Local store retail reports, shipping timelines, and direct home dispatch.
             </p>
           </div>
@@ -917,7 +917,7 @@ export default function App() {
                   </p>
                 </div>
               </div>
-              <p className="leading-relaxed text-xs md:text-sm text-slate-500 italic mt-4">
+              <p className="leading-relaxed text-xs md:text-sm text-slate-500 mt-4">
                 *Local distribution depots in Iowa and the Midwest region ensure rapid transit and package handoffs for localized postal routes.
               </p>
             </div>
@@ -943,11 +943,180 @@ export default function App() {
         </div>
       </section>
 
+      {/* Global Shipping & Market Availability: USA, Canada, Australia, UK */}
+      <section id="global-shipping" className="py-24 bg-white border-t border-slate-100">
+        <div className="max-w-5xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <span className="inline-flex items-center gap-2 bg-blue-50 text-blue-700 px-4 py-1.5 rounded-full text-xs md:text-sm font-black uppercase tracking-wider mb-4">
+              <Globe size={14} /> International Shipping Directory
+            </span>
+            <h2 className="text-4xl lg:text-7xl font-serif font-black uppercase tracking-tighter text-brand-navy mb-4 leading-none">
+              Prosta Vive Global <br className="hidden md:block"/> Availability &amp; Dispatch
+            </h2>
+            <p className="text-xl md:text-2xl text-slate-500 font-medium">
+              Official guide to purchasing Prosta Vive in USA, Canada, Australia, and UK.
+            </p>
+          </div>
+
+          <div className="space-y-12">
+            {/* Introductory Text with Keyword Density */}
+            <div className="bg-slate-50 p-8 rounded-[32px] border border-slate-100 leading-relaxed text-slate-700 text-lg md:text-xl font-medium">
+              <p className="mb-4">
+                Welcome to the official global distribution guide for the premium <strong className="text-brand-navy font-black">Prosta Vive</strong> dietary supplement. If you are planning to buy <strong className="text-brand-navy font-black">Prosta Vive</strong> in the United States, Canada, the United Kingdom, or Australia, you are backed by our secure international fulfillment network. 
+              </p>
+              <p>
+                To maintain the guaranteed <strong className="text-brand-navy font-black">Prosta Vive</strong> best price online and safeguard product integrity, authentic <strong className="text-brand-navy font-black">Prosta Vive</strong> is sold exclusively through our direct channels. Here is how you can order <strong className="text-brand-navy font-black">Prosta Vive</strong> safely and track your dispatch across all target global markets.
+              </p>
+            </div>
+
+            {/* Grid of Countries */}
+            <div className="grid md:grid-cols-2 gap-8">
+              {/* USA */}
+              <div className="bg-white rounded-3xl p-8 border border-slate-200/80 shadow-sm hover:shadow-md transition-shadow">
+                <div className="flex items-center gap-4 mb-6">
+                  <div className="w-12 h-12 rounded-2xl bg-blue-500/10 flex items-center justify-center text-blue-600 shrink-0">
+                    <span className="font-black text-lg">US</span>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-black text-brand-navy uppercase tracking-tight leading-none">Prosta Vive USA</h3>
+                    <p className="text-xs font-black text-slate-400 uppercase tracking-wider mt-1">United States Shipping</p>
+                  </div>
+                </div>
+                <p className="text-slate-600 text-base md:text-lg font-semibold leading-relaxed mb-4">
+                  For customers wanting to buy <strong className="text-brand-navy font-bold">Prosta Vive</strong> in the USA, we ship directly to all fifty states. Whether you order <strong className="text-brand-navy font-bold">Prosta Vive</strong> in Texas, Florida, Ohio, California, or New York, your authentic <strong className="text-brand-navy font-bold">Prosta Vive</strong> package is dispatched from our domestic warehouses via premium courier services.
+                </p>
+                <div className="bg-slate-50 p-4 rounded-xl text-xs font-bold text-slate-500">
+                  🇺🇸 Transit Time: 3-5 Business Days | Rate: FREE on select packages
+                </div>
+              </div>
+
+              {/* Canada */}
+              <div className="bg-white rounded-3xl p-8 border border-slate-200/80 shadow-sm hover:shadow-md transition-shadow">
+                <div className="flex items-center gap-4 mb-6">
+                  <div className="w-12 h-12 rounded-2xl bg-red-500/10 flex items-center justify-center text-red-600 shrink-0">
+                    <span className="font-black text-lg">CA</span>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-black text-brand-navy uppercase tracking-tight leading-none">Prosta Vive Canada</h3>
+                    <p className="text-xs font-black text-slate-400 uppercase tracking-wider mt-1">Canadian Delivery</p>
+                  </div>
+                </div>
+                <p className="text-slate-600 text-base md:text-lg font-semibold leading-relaxed mb-4">
+                  Planning to order <strong className="text-brand-navy font-bold">Prosta Vive</strong> in Canada? We offer safe, trackable border shipping directly to your residence in Toronto, Vancouver, Montreal, or Calgary. Every <strong className="text-brand-navy font-bold">Prosta Vive</strong> Canada package clears customs seamlessly and is delivered by reliable Canadian postal carriers.
+                </p>
+                <div className="bg-slate-50 p-4 rounded-xl text-xs font-bold text-slate-500">
+                  🇨🇦 Transit Time: 5-7 Business Days | Rate: Trackable International Shipping
+                </div>
+              </div>
+
+              {/* UK */}
+              <div className="bg-white rounded-3xl p-8 border border-slate-200/80 shadow-sm hover:shadow-md transition-shadow">
+                <div className="flex items-center gap-4 mb-6">
+                  <div className="w-12 h-12 rounded-2xl bg-purple-500/10 flex items-center justify-center text-purple-600 shrink-0">
+                    <span className="font-black text-lg">UK</span>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-black text-brand-navy uppercase tracking-tight leading-none">Prosta Vive UK</h3>
+                    <p className="text-xs font-black text-slate-400 uppercase tracking-wider mt-1">United Kingdom Delivery</p>
+                  </div>
+                </div>
+                <p className="text-slate-600 text-base md:text-lg font-semibold leading-relaxed mb-4">
+                  For those searching for <strong className="text-brand-navy font-bold">Prosta Vive</strong> in the UK, direct shipping is fully available. Receive your authentic <strong className="text-brand-navy font-bold">Prosta Vive</strong> package anywhere in Great Britain or Northern Ireland. UK orders are processed under standard regulations and shipped quickly to your home.
+                </p>
+                <div className="bg-slate-50 p-4 rounded-xl text-xs font-bold text-slate-500">
+                  🇬🇧 Transit Time: 5-8 Business Days | Rate: International Express Carrier
+                </div>
+              </div>
+
+              {/* Australia */}
+              <div className="bg-white rounded-3xl p-8 border border-slate-200/80 shadow-sm hover:shadow-md transition-shadow">
+                <div className="flex items-center gap-4 mb-6">
+                  <div className="w-12 h-12 rounded-2xl bg-green-500/10 flex items-center justify-center text-green-600 shrink-0">
+                    <span className="font-black text-lg">AU</span>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-black text-brand-navy uppercase tracking-tight leading-none">Prosta Vive Australia</h3>
+                    <p className="text-xs font-black text-slate-400 uppercase tracking-wider mt-1">Australia &amp; NZ Dispatch</p>
+                  </div>
+                </div>
+                <p className="text-slate-600 text-base md:text-lg font-semibold leading-relaxed mb-4">
+                  Australian consumers looking to buy <strong className="text-brand-navy font-bold">Prosta Vive</strong> in Australia can access direct global dispatch. Whether you live in Sydney, Melbourne, Brisbane, Adelaide, or Perth, your genuine <strong className="text-brand-navy font-bold">Prosta Vive</strong> Australia order is shipped via premium express postal networks.
+                </p>
+                <div className="bg-slate-50 p-4 rounded-xl text-xs font-bold text-slate-500">
+                  🇦🇺 Transit Time: 6-10 Business Days | Rate: Insured Air Delivery
+                </div>
+              </div>
+            </div>
+
+            {/* Keyword Density Verification Block */}
+            <div className="bg-blue-50/40 border border-blue-100 p-8 rounded-[40px] space-y-6">
+              <h3 className="text-2xl font-black text-brand-navy uppercase tracking-tight">Why Buy Prosta Vive Directly From Us?</h3>
+              <p className="text-slate-700 text-base md:text-lg font-semibold leading-relaxed">
+                When you choose to buy <strong className="text-brand-navy font-bold">Prosta Vive</strong> through our authorized links, you are guaranteed to receive the original, clinical-grade <strong className="text-brand-navy font-bold">Prosta Vive</strong> formula. Beware of unauthorized resellers on third-party sites trying to mimic the certified <strong className="text-brand-navy font-bold">Prosta Vive</strong> brand. Only the official <strong className="text-brand-navy font-bold">Prosta Vive</strong> store can protect your order with our ironclad 180-day money-back guarantee.
+              </p>
+              
+              {/* Interactive Checklist containing multiple keyword repetitions naturally */}
+              <div className="grid sm:grid-cols-2 gap-4">
+                {[
+                  "Original Prosta Vive USA verified stock",
+                  "Secure Prosta Vive Canada dispatch channels",
+                  "Direct Prosta Vive UK tracked airmail",
+                  "Insured Prosta Vive Australia express delivery",
+                  "Authentic Prosta Vive natural prostate ingredients",
+                  "Zero hidden fees on your Prosta Vive checkout"
+                ].map((item, idx) => (
+                  <div key={idx} className="flex items-center gap-3 bg-white p-3.5 rounded-xl border border-slate-100 shadow-sm text-sm font-bold text-slate-700">
+                    <CheckCircle2 size={18} className="text-green-600 shrink-0" />
+                    <span>{item}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Detailed Shipping Comparison Table */}
+            <div className="overflow-hidden border border-slate-200 rounded-3xl shadow-sm overflow-x-auto bg-white">
+              <table className="w-full text-left border-collapse min-w-[600px]">
+                <thead>
+                  <tr className="bg-slate-50 border-b border-slate-200">
+                    <th className="px-6 py-4 text-xs md:text-sm font-black uppercase tracking-wider text-brand-navy">Global Territory</th>
+                    <th className="px-6 py-4 text-xs md:text-sm font-black uppercase tracking-wider text-brand-navy">Prosta Vive Courier</th>
+                    <th className="px-6 py-4 text-xs md:text-sm font-black uppercase tracking-wider text-brand-navy">Estimated Dispatch</th>
+                    <th className="px-6 py-4 text-xs md:text-sm font-black uppercase tracking-wider text-brand-navy">Guaranteed Tracking</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-slate-100">
+                  {[
+                    { country: "Prosta Vive USA", courier: "USPS / FedEx Express", time: "3 - 5 Business Days", track: "Yes, fully tracked" },
+                    { country: "Prosta Vive Canada", courier: "Canada Post / DHL", time: "5 - 7 Business Days", track: "Yes, fully tracked" },
+                    { country: "Prosta Vive UK", courier: "Royal Mail / Express Air", time: "5 - 8 Business Days", track: "Yes, fully tracked" },
+                    { country: "Prosta Vive Australia", courier: "Australia Post / Courier", time: "6 - 10 Business Days", track: "Yes, fully tracked" }
+                  ].map((row, idx) => (
+                    <tr key={idx} className="hover:bg-slate-50/30">
+                      <td className="px-6 py-4 text-base font-black text-brand-navy whitespace-nowrap">{row.country}</td>
+                      <td className="px-6 py-4 text-base text-slate-600 font-bold">{row.courier}</td>
+                      <td className="px-6 py-4 text-base text-slate-600 font-bold">{row.time}</td>
+                      <td className="px-6 py-4 text-base text-blue-600 font-black">{row.track}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+
+            <div className="pt-6 text-center">
+              <a href={AFFILIATE_LINK} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-3 bg-yellow-400 hover:bg-yellow-300 text-black px-12 py-5 rounded-2xl text-xl md:text-2xl font-black transition-all shadow-xl shadow-yellow-400/20 uppercase tracking-tighter">
+                Check Prosta Vive International Pricing
+                <ArrowRight size={24} className="shrink-0" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Detailed FAQ Section for SEO */}
       <section className="py-24 bg-slate-50 border-y border-slate-100">
         <div className="max-w-4xl mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl lg:text-6xl font-serif font-black mb-6 uppercase tracking-tighter italic text-brand-navy">Common Questions</h2>
+            <h2 className="text-4xl lg:text-6xl font-serif font-black mb-6 uppercase tracking-tighter text-brand-navy">Common Questions</h2>
             <p className="text-xl text-slate-500 font-medium">Everything you need to know about ProstaVive.</p>
           </div>
           <div className="space-y-4">
@@ -1019,8 +1188,8 @@ export default function App() {
       {/* Final CTA */}
       <section className="py-24 bg-brand-navy text-white text-center">
         <div className="max-w-4xl mx-auto px-6">
-          <h2 className="text-4xl lg:text-7xl font-serif font-black mb-10 uppercase tracking-tighter italic">Ready to Reclaim Your <span className="text-blue-400">Vitality?</span></h2>
-          <p className="text-xl md:text-2xl text-blue-100/85 mb-12 max-w-3xl mx-auto italic font-bold leading-relaxed">Join thousands of men who have restored their confidence and sleep with ProstaVive.</p>
+          <h2 className="text-4xl lg:text-7xl font-serif font-black mb-10 uppercase tracking-tighter">Ready to Reclaim Your <span className="text-blue-400">Vitality?</span></h2>
+          <p className="text-xl md:text-2xl text-blue-100/85 mb-12 max-w-3xl mx-auto font-bold leading-relaxed">Join thousands of men who have restored their confidence and sleep with ProstaVive.</p>
           <a href={AFFILIATE_LINK} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-3 bg-yellow-400 text-black px-12 py-6 rounded-2xl text-2xl md:text-3xl font-black hover:bg-yellow-300 transition-all shadow-2xl shadow-yellow-400/20 group uppercase tracking-tighter">
             Get ProstaVive Now
             <ArrowRight className="group-hover:translate-x-1 transition-transform" />
@@ -1037,11 +1206,11 @@ export default function App() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-20 mb-20 border-b border-white/5 pb-20">
              <div className="lg:col-span-1">
-               <div className="text-4xl font-black italic mb-8 tracking-tighter uppercase">
+               <div className="text-4xl font-black mb-8 tracking-tighter uppercase">
                  <span className="text-blue-400">Prosta</span>
                  <span className="text-white">Vive</span>
                </div>
-               <p className="text-sm leading-relaxed font-medium mb-10 italic">The breakthrough botanical solution for male vitality and prostate health restoration.</p>
+               <p className="text-sm leading-relaxed font-medium mb-10">The breakthrough botanical solution for male vitality and prostate health restoration.</p>
                <div className="flex gap-4">
                  {[1,2,3].map(i => <div key={i} className="w-12 h-12 bg-white/5 rounded-2xl flex items-center justify-center hover:bg-brand-navy transition-colors cursor-pointer text-white"><Star size={20} /></div>)}
                </div>
