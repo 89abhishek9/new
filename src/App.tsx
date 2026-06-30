@@ -26,9 +26,9 @@ import {
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
-const testimonialImage1 = "/src/assets/images/regenerated_image_1782538963498.webp";
-const testimonialImage2 = "/src/assets/images/regenerated_image_1782538964453.jpg";
-const testimonialImage3 = "/src/assets/images/regenerated_image_1782538965475.jpg";
+const testimonialImage1 = "/images/testimonial_1.webp";
+const testimonialImage2 = "/images/testimonial_2.jpg";
+const testimonialImage3 = "/images/testimonial_3.jpg";
 
 const ingredients = [
   { name: "Saw Palmetto", desc: "Supports healthy urinary flow and prostate size." },
