@@ -203,9 +203,9 @@ export default function App() {
             initial={{ opacity: 0, scale: 0.8, rotate: 5 }}
             animate={{ opacity: 1, scale: 1, rotate: 0 }}
             transition={{ duration: 1, delay: 0.2 }}
-            className="relative"
+            className="relative min-h-[400px] lg:min-h-[512px] flex items-center justify-center"
           >
-            <img src={productWithIngredientsImage} alt="ProstaVive supplement bottle with natural ingredients illustration" className="relative z-20 w-full max-w-md mx-auto drop-shadow-[0_35px_35px_rgba(37,99,235,0.3)]" />
+            <img src={productWithIngredientsImage} alt="ProstaVive supplement bottle with natural ingredients illustration" width={448} height={512} className="relative z-20 w-full max-w-md mx-auto aspect-[7/8] object-contain drop-shadow-[0_35px_35px_rgba(37,99,235,0.3)]" />
           </motion.div>
         </div>
       </section>
@@ -358,6 +358,8 @@ export default function App() {
                   <img 
                     src={t.image} 
                     alt={t.name} 
+                    width={96}
+                    height={96}
                     className="w-24 h-24 rounded-full object-cover border-4 border-white ring-4 ring-brand-navy/10 shadow-xl shrink-0"
                     referrerPolicy="no-referrer"
                   />
@@ -390,7 +392,7 @@ export default function App() {
               <div className="text-blue-500 font-black text-sm uppercase tracking-widest mb-10">30-day supply</div>
               
               <div className="relative mb-6 lg:mb-12 h-64 lg:h-72 flex items-center justify-center">
-                <img src={productWithIngredientsImage} alt="ProstaVive Starter Pack - 1 Bottle" className="max-h-full w-auto" loading="lazy" />
+                <img src={productWithIngredientsImage} alt="ProstaVive Starter Pack - 1 Bottle" width={180} height={250} className="max-h-full w-auto object-contain" loading="lazy" />
               </div>
  
               <div className="flex items-baseline gap-1 mb-8 lg:mb-12">
@@ -407,9 +409,9 @@ export default function App() {
                    <Plus size={16} strokeWidth={4} /> Small Shipping Fee
                 </div>
                 <div className="flex gap-4 opacity-50">
-                   <img src="/images/visa-card.jpg" alt="Visa" className="h-6" />
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" alt="Mastercard" className="h-6" />
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" alt="PayPal" className="h-6" />
+                   <img src="/images/visa-card.jpg" alt="Visa" width={38} height={24} className="h-6 w-auto object-contain" />
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" alt="Mastercard" width={38} height={24} className="h-6 w-auto object-contain" />
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" alt="PayPal" width={38} height={24} className="h-6 w-auto object-contain" />
                 </div>
               </div>
             </div>
@@ -424,7 +426,7 @@ export default function App() {
                 <div className="text-blue-300 font-black text-sm uppercase tracking-widest mb-10">180-day supply</div>
                 
                 <div className="relative mb-6 lg:mb-12 h-64 lg:h-72 flex items-center justify-center">
-                  <img src={productWithIngredientsImage} alt="ProstaVive Value Pack - 6 Bottles" className="max-h-full w-auto drop-shadow-[0_20px_50px_rgba(255,255,255,0.1)]" loading="lazy" />
+                  <img src={productWithIngredientsImage} alt="ProstaVive Value Pack - 6 Bottles" width={220} height={250} className="max-h-full w-auto object-contain drop-shadow-[0_20px_50px_rgba(255,255,255,0.1)]" loading="lazy" />
                   <div className="absolute top-0 right-[-10%] lg:right-[-20%] w-20 h-20 lg:w-28 lg:h-28 bg-red-600 text-white rounded-full flex flex-col items-center justify-center border-[4px] lg:border-[6px] border-brand-navy shadow-2xl rotate-12 scale-110">
                     <div className="text-sm lg:text-xl font-black leading-none">FREE</div>
                     <div className="text-[10px] lg:text-xs font-bold leading-none mt-1 uppercase">Shipping</div>
@@ -456,7 +458,7 @@ export default function App() {
               <div className="text-blue-500 font-black text-sm uppercase tracking-widest mb-10">90-day supply</div>
               
               <div className="relative mb-6 lg:mb-12 h-64 lg:h-72 flex items-center justify-center">
-                 <img src={productWithIngredientsImage} alt="ProstaVive Bundle Pack - 3 Bottles" className="max-h-full w-auto" loading="lazy" />
+                 <img src={productWithIngredientsImage} alt="ProstaVive Bundle Pack - 3 Bottles" width={200} height={250} className="max-h-full w-auto object-contain" loading="lazy" />
               </div>
  
               <div className="flex items-baseline gap-1 mb-8 lg:mb-12">
@@ -555,7 +557,7 @@ export default function App() {
           </div>
           <div className="relative mt-12 lg:mt-0">
              <div className="aspect-[4/5] bg-gradient-to-t from-black to-brand-navy rounded-[40px] lg:rounded-[60px] overflow-hidden relative shadow-3xl border border-white/10">
-                <img src="/images/active-healthy-older-man.png" alt="Healthy active older man enjoying life outdoors with high energy" className="w-full h-full object-cover mix-blend-overlay opacity-60" />
+                <img src="/images/active-healthy-older-man.png" alt="Healthy active older man enjoying life outdoors with high energy" width={560} height={700} className="w-full h-full object-cover mix-blend-overlay opacity-60" />
                 <div className="absolute bottom-8 lg:bottom-12 left-8 lg:left-12 right-8 lg:right-12">
                    <div className="text-3xl lg:text-5xl font-serif font-black text-white tracking-tighter mb-4 leading-none">"I haven't felt this strong in 20 years."</div>
                    <div className="text-blue-400 font-bold uppercase tracking-widest text-sm">— Mark R., Age 61</div>
